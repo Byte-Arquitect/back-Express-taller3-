@@ -13,6 +13,7 @@ Also add a variable that define the secret key for the token.
 	DB_HOST=localhost
 	DB_DATABASE=nombre_base_de_datos  //name of the database in workbench
 	DB_USER=root
+	DB_PORT=3307 //here goes the port
 	DB_PASSWORD= //here goes the password
     TOKEN_SECRET=mysecretkey
 ```

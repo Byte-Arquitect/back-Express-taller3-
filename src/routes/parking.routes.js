@@ -7,7 +7,7 @@ const router = Router();
 
 // Obtener todos los datos de estacionamientos
 //Ruta protegida
-router.use(AuthenticateToken);
+// router.use(AuthenticateToken);
 router.get("/parking/", ParkingController.getAllParkingData);
 
 router.get("/", (req, res) => {
