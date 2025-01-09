@@ -26,4 +26,4 @@ jobs:
 
     - name: Notify Render via webhook
       run: |
-        curl -X POST https://api.render.com/deploy/webhooks/<YOUR-WEBHOOK-ID>
+        curl -X POST ${{ secrets.RENDER_WEBHOOK_URL }}
